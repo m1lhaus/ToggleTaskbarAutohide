@@ -1,0 +1,26 @@
+{
+    "version": 6,
+    "cmakeMinimumRequired": {
+      "major": 3,
+      "minor": 25,
+      "patch": 0
+    },
+    "include": [
+    ],
+    "configurePresets": [
+      {
+        "name": "default",
+        "displayName": "Default Config",
+        "description": "Default build using Visual Studio 2022",
+        "generator": "Visual Studio 17 2022",
+        "architecture": "x64",
+        "binaryDir": "${sourceDir}/build"
+      }
+    ],
+    "buildPresets": [
+      {
+        "name": "default",
+        "configurePreset": "default"
+      }
+    ]
+  }
